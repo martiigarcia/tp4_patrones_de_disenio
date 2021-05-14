@@ -9,9 +9,9 @@ public abstract class Remera {
     }
 
     public double calcularPrecioTotal(){
-        double montoTotal = 0;
+        double montoTotal = precioUnitario;
         montoTotal = montoTotal + this.calcularRecargo(precioUnitario);
-        montoTotal = montoTotal + this.calcularBonificaciones(precioUnitario);
+        montoTotal = montoTotal - this.calcularBonificaciones(precioUnitario);
         montoTotal = montoTotal + this.calcularAumentoDelNegocio(precioUnitario);
         return montoTotal;
     }

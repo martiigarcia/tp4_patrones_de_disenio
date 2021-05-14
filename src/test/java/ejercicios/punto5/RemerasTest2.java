@@ -8,8 +8,8 @@ public class RemerasTest2 {
     Remera remeraNacional = new RemeraNacional(10);
     Remera remeraImportada = new RemeraImportada(10);
 
-    private final double MONTO_TOTAL_REMERA_NACIONAL = 3.65;
-    private final double MONTO_TOTAL_REMERA_IMPORTADA = 3.3;
+    private final double MONTO_TOTAL_REMERA_NACIONAL = 9.65;
+    private final double MONTO_TOTAL_REMERA_IMPORTADA = 13.3;
 
     @Test
     public void verificarPrecioRemeraNacional(){

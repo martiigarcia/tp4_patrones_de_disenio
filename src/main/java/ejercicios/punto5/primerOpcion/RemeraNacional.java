@@ -11,6 +11,6 @@ public class RemeraNacional extends Remera {
     }
 
     public double calcularRecargo(double precioUnitario){
-        return (precioUnitario * 0.015) + (precioUnitario * 0.20) + (precioUnitario * 0.15);
+        return (precioUnitario * 0.015) - (precioUnitario * 0.20) + (precioUnitario * 0.15);
     }
 }

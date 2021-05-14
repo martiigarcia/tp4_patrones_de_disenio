@@ -4,7 +4,4 @@ public interface Producto {
 
     double obtenerMontoTotal();
 
-
-
-
 }

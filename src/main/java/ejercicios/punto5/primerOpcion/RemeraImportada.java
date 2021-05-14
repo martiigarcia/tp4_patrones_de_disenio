@@ -7,6 +7,6 @@ public class RemeraImportada extends Remera {
     }
 
     public double calcularRecargo(double precioUnitario){
-        return (precioUnitario * 0.08) + (precioUnitario * 0) + (precioUnitario * 0.25);
+        return (precioUnitario * 0.08) - (precioUnitario * 0) + (precioUnitario * 0.25);
     }
 }

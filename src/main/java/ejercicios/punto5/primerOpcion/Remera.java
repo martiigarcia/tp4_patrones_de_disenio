@@ -9,9 +9,7 @@ public abstract class Remera {
     }
 
     public double calcularPrecioTotal(){
-        double montoTotal = 0;
-        montoTotal = montoTotal + this.calcularRecargo(precioUnitario);
-        return montoTotal;
+        return precioUnitario + this.calcularRecargo(precioUnitario);
     }
 
     protected abstract double calcularRecargo(double precioUnitario);

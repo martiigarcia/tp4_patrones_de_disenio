@@ -20,7 +20,11 @@ public class Paquete implements Producto{
         for (Producto producto : listaProducto) {
             monto = monto + producto.obtenerMontoTotal();
         }
-        return monto;
+        return aplicarDescuento(monto);
+    }
+
+    public double aplicarDescuento(double monto){
+        return monto - (monto * 0.05);
     }
 
 }
